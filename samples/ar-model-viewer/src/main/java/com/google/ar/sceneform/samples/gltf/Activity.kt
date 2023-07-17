@@ -15,7 +15,7 @@ class Activity : AppCompatActivity(R.layout.activity) {
         })
 
         supportFragmentManager.commit {
-            add(R.id.containerFragment, MainFragment::class.java, Bundle())
+            add(R.id.containerFragment, HomeFragment::class.java, Bundle())
         }
     }
 }
